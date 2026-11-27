@@ -1,0 +1,375 @@
+{
+  "random_seed": 3702026,
+  "sampling_method": "Deduplicate URI; require English metadata and correct seven-day release window; apply movie-specific high-precision relevance rules; draw each movie quota uniformly at random, exclude only feed-attribution-only and standalone-link posts, and replace exclusions from that movie's remaining qualified pool. The 200-post open-coding subset is randomly drawn from the selected 500 using fixed movie quotas.",
+  "sample_screen": {
+    "excluded_reasons": [
+      "feed_attribution_only",
+      "bare_link_only"
+    ],
+    "other_non_substantive_or_irrelevant_posts": "Not automatically excluded; review these during human relevance checks."
+  },
+  "total_selected": 500,
+  "total_open_coding": 200,
+  "movies": {
+    "the_odyssey": {
+      "name": "The Odyssey",
+      "window_start_inclusive_utc": "2026-07-17",
+      "window_end_exclusive_utc": "2026-07-24",
+      "raw_retrieved_posts": 30801,
+      "eligible_english_unique_posts": 30626,
+      "rule_qualified_posts": 14943,
+      "selected_for_annotation": 167,
+      "selected_for_open_coding": 67,
+      "eligible_daily_counts": {
+        "2026-07-17": 4923,
+        "2026-07-18": 4904,
+        "2026-07-19": 5133,
+        "2026-07-20": 3806,
+        "2026-07-21": 3446,
+        "2026-07-22": 4934,
+        "2026-07-23": 3480
+      },
+      "rule_qualified_daily_counts": {
+        "2026-07-17": 2550,
+        "2026-07-18": 2512,
+        "2026-07-19": 2559,
+        "2026-07-20": 1950,
+        "2026-07-21": 1761,
+        "2026-07-22": 2090,
+        "2026-07-23": 1521
+      },
+      "relevance_rule_counts": {
+        "odyssey_title_plus_film_context": 14943
+      },
+      "initial_sampled": 167,
+      "excluded_non_substantive": 10,
+      "replacement_count": 10,
+      "replacements": [
+        {
+          "excluded_uri": "at://did:plc:zrjg23skr66z5x5zz7oqksig/app.bsky.feed.post/3mqwwnfvkd22x",
+          "reason": "bare_link_only",
+          "replacement_uri": "at://did:plc:4kc3brrl5y67kcqhv4x2pg72/app.bsky.feed.post/3mr2jfawl4c2v",
+          "replacement_date_utc": "2026-07-20"
+        },
+        {
+          "excluded_uri": "at://did:plc:o6ggjvnj4ze3mnrpnv5oravg/app.bsky.feed.post/3mqwkvjoj4y27",
+          "reason": "feed_attribution_only",
+          "replacement_uri": "at://did:plc:67wdhrsgstmiyixg5bs6nptl/app.bsky.feed.post/3mqwhqudasc2u",
+          "replacement_date_utc": "2026-07-18"
+        },
+        {
+          "excluded_uri": "at://did:plc:2zlvsashwm6z3jjniivl5xnl/app.bsky.feed.post/3mrbfyxem6c2v",
+          "reason": "bare_link_only",
+          "replacement_uri": "at://did:plc:k5hon327wjfixoovjccf45ka/app.bsky.feed.post/3mrbk5k6c2k2j",
+          "replacement_date_utc": "2026-07-23"
+        },
+        {
+          "excluded_uri": "at://did:plc:o6ggjvnj4ze3mnrpnv5oravg/app.bsky.feed.post/3mr3ngbxg4h2n",
+          "reason": "feed_attribution_only",
+          "replacement_uri": "at://did:plc:a6pmadwqt3aiylx5gf53vh6o/app.bsky.feed.post/3mr22mcyujstk",
+          "replacement_date_utc": "2026-07-20"
+        },
+        {
+          "excluded_uri": "at://did:plc:o6ggjvnj4ze3mnrpnv5oravg/app.bsky.feed.post/3mqwd4mdl5y27",
+          "reason": "feed_attribution_only",
+          "replacement_uri": "at://did:plc:2hjs5ngngatbptunzo4as37u/app.bsky.feed.post/3mqzjmlkx2c2i",
+          "replacement_date_utc": "2026-07-19"
+        },
+        {
+          "excluded_uri": "at://did:plc:ktss6wk7egs7k3sp572xlgss/app.bsky.feed.post/3mrbe4kvph22a",
+          "reason": "bare_link_only",
+          "replacement_uri": "at://did:plc:i4gtnkgmvlyesgh6nky4qvj6/app.bsky.feed.post/3mr3otpouts2k",
+          "replacement_date_utc": "2026-07-20"
+        },
+        {
+          "excluded_uri": "at://did:plc:o6ggjvnj4ze3mnrpnv5oravg/app.bsky.feed.post/3mqtvcum4qw2p",
+          "reason": "feed_attribution_only",
+          "replacement_uri": "at://did:plc:6n66r4q36dowuvu24tdd6liv/app.bsky.feed.post/3mr742oym4c2y",
+          "replacement_date_utc": "2026-07-22"
+        },
+        {
+          "excluded_uri": "at://did:plc:rondnegagedp2qfphtsnkfvi/app.bsky.feed.post/3mr4cegrkxk2b",
+          "reason": "bare_link_only",
+          "replacement_uri": "at://did:plc:jfuwfvhuunn2gjdpg6ftcxoq/app.bsky.feed.post/3mr4e72swds2m",
+          "replacement_date_utc": "2026-07-20"
+        },
+        {
+          "excluded_uri": "at://did:plc:e5uq3xzzc6ojjolyxdylvhh5/app.bsky.feed.post/3mqzjzrnmw22r",
+          "reason": "bare_link_only",
+          "replacement_uri": "at://did:plc:zvnatgf34ny7pkms62nmymv6/app.bsky.feed.post/3mqzsw3rz4222",
+          "replacement_date_utc": "2026-07-19"
+        },
+        {
+          "excluded_uri": "at://did:plc:5swvpzrcz52ogfv3ggzfvnuk/app.bsky.feed.post/3mr3tu4rk6s24",
+          "reason": "bare_link_only",
+          "replacement_uri": "at://did:plc:7madpnwkbc5dqjsjf2hynw6e/app.bsky.feed.post/3mqvcu7d7ok2n",
+          "replacement_date_utc": "2026-07-18"
+        }
+      ],
+      "selected_daily_counts": {
+        "2026-07-17": 29,
+        "2026-07-18": 22,
+        "2026-07-19": 20,
+        "2026-07-20": 26,
+        "2026-07-21": 22,
+        "2026-07-22": 30,
+        "2026-07-23": 18
+      }
+    },
+    "spider_man_brand_new_day": {
+      "name": "Spider-Man: Brand New Day",
+      "window_start_inclusive_utc": "2026-07-31",
+      "window_end_exclusive_utc": "2026-08-07",
+      "raw_retrieved_posts": 5449,
+      "eligible_english_unique_posts": 5402,
+      "rule_qualified_posts": 4983,
+      "selected_for_annotation": 167,
+      "selected_for_open_coding": 67,
+      "eligible_daily_counts": {
+        "2026-07-31": 1228,
+        "2026-08-01": 975,
+        "2026-08-02": 954,
+        "2026-08-03": 821,
+        "2026-08-04": 592,
+        "2026-08-05": 470,
+        "2026-08-06": 362
+      },
+      "rule_qualified_daily_counts": {
+        "2026-07-31": 1105,
+        "2026-08-01": 905,
+        "2026-08-02": 885,
+        "2026-08-03": 769,
+        "2026-08-04": 542,
+        "2026-08-05": 442,
+        "2026-08-06": 335
+      },
+      "relevance_rule_counts": {
+        "brand_new_day_title_alias": 4982,
+        "spider_man_abbreviation_plus_film_context": 1
+      },
+      "initial_sampled": 167,
+      "excluded_non_substantive": 4,
+      "replacement_count": 4,
+      "replacements": [
+        {
+          "excluded_uri": "at://did:plc:eg4kwocll7g2v6alkwhstrj5/app.bsky.feed.post/3ms2draawpk2b",
+          "reason": "bare_link_only",
+          "replacement_uri": "at://did:plc:knsszrujdducsne2yxvzqhph/app.bsky.feed.post/3ms4brezjgs2t",
+          "replacement_date_utc": "2026-08-02"
+        },
+        {
+          "excluded_uri": "at://did:plc:yo32zg7kqrxgox7vut467aj6/app.bsky.feed.post/3msdlp5j26c2z",
+          "reason": "bare_link_only",
+          "replacement_uri": "at://did:plc:5nye5tl6w4qe6rfnj2l6jmga/app.bsky.feed.post/3ms4jac45vc2m",
+          "replacement_date_utc": "2026-08-02"
+        },
+        {
+          "excluded_uri": "at://did:plc:blnklpbwglwo7nuhxw4xu47a/app.bsky.feed.post/3mrvxlk7b6s2n",
+          "reason": "bare_link_only",
+          "replacement_uri": "at://did:plc:fodj3b3cje6q2gsilmmg2gxa/app.bsky.feed.post/3mrwxb5rwcc2u",
+          "replacement_date_utc": "2026-07-31"
+        },
+        {
+          "excluded_uri": "at://did:plc:j2hdg6wa3asoushnooyg2pyl/app.bsky.feed.post/3ms7bdpj3o22v",
+          "reason": "bare_link_only",
+          "replacement_uri": "at://did:plc:e2j73auykxewkvokqof2y2ug/app.bsky.feed.post/3mseqt5ktlc2z",
+          "replacement_date_utc": "2026-08-06"
+        }
+      ],
+      "selected_daily_counts": {
+        "2026-07-31": 42,
+        "2026-08-01": 28,
+        "2026-08-02": 27,
+        "2026-08-03": 24,
+        "2026-08-04": 15,
+        "2026-08-05": 18,
+        "2026-08-06": 13
+      }
+    },
+    "moana_live_action": {
+      "name": "Moana (live-action)",
+      "window_start_inclusive_utc": "2026-07-10",
+      "window_end_exclusive_utc": "2026-07-17",
+      "raw_retrieved_posts": 2224,
+      "eligible_english_unique_posts": 2190,
+      "rule_qualified_posts": 1136,
+      "selected_for_annotation": 166,
+      "selected_for_open_coding": 66,
+      "eligible_daily_counts": {
+        "2026-07-10": 456,
+        "2026-07-11": 419,
+        "2026-07-12": 387,
+        "2026-07-13": 417,
+        "2026-07-14": 229,
+        "2026-07-15": 149,
+        "2026-07-16": 133
+      },
+      "rule_qualified_daily_counts": {
+        "2026-07-10": 248,
+        "2026-07-11": 228,
+        "2026-07-12": 203,
+        "2026-07-13": 216,
+        "2026-07-14": 113,
+        "2026-07-15": 68,
+        "2026-07-16": 60
+      },
+      "relevance_rule_counts": {
+        "moana_title_plus_2026_film_context": 64,
+        "moana_title_plus_live_action_context": 1072
+      },
+      "initial_sampled": 166,
+      "excluded_non_substantive": 22,
+      "replacement_count": 22,
+      "replacements": [
+        {
+          "excluded_uri": "at://did:plc:73wk3zk6cx6mn6qqygzcgik5/app.bsky.feed.post/3mqhhjpcfuk2e",
+          "reason": "bare_link_only",
+          "replacement_uri": "at://did:plc:em7w2jc4ppudtsdtzmk2hmrr/app.bsky.feed.post/3mqimsa6yqs2x",
+          "replacement_date_utc": "2026-07-13"
+        },
+        {
+          "excluded_uri": "at://did:plc:o6ggjvnj4ze3mnrpnv5oravg/app.bsky.feed.post/3mqcnqesxpb2q",
+          "reason": "feed_attribution_only",
+          "replacement_uri": "at://did:plc:xac3zlqgzhddagojj2pjmdkv/app.bsky.feed.post/3mqptcjjj2s25",
+          "replacement_date_utc": "2026-07-15"
+        },
+        {
+          "excluded_uri": "at://did:plc:o6ggjvnj4ze3mnrpnv5oravg/app.bsky.feed.post/3mqixqgk6qr2y",
+          "reason": "feed_attribution_only",
+          "replacement_uri": "at://did:plc:ilxgmfcuicth5yzn6mmeym5g/app.bsky.feed.post/3mqkqox53o22t",
+          "replacement_date_utc": "2026-07-13"
+        },
+        {
+          "excluded_uri": "at://did:plc:o6ggjvnj4ze3mnrpnv5oravg/app.bsky.feed.post/3mqdimol2df2g",
+          "reason": "feed_attribution_only",
+          "replacement_uri": "at://did:plc:grgnlcu2jktuiocej5d23p6x/app.bsky.feed.post/3mqghytfpvs2d",
+          "replacement_date_utc": "2026-07-12"
+        },
+        {
+          "excluded_uri": "at://did:plc:o6ggjvnj4ze3mnrpnv5oravg/app.bsky.feed.post/3mqfxgbfsff2j",
+          "reason": "feed_attribution_only",
+          "replacement_uri": "at://did:plc:gxpblguxwdd3fswogcadlon5/app.bsky.feed.post/3mqcq7pezm22u",
+          "replacement_date_utc": "2026-07-10"
+        },
+        {
+          "excluded_uri": "at://did:plc:o6ggjvnj4ze3mnrpnv5oravg/app.bsky.feed.post/3mqdcu7x2gd2m",
+          "reason": "feed_attribution_only",
+          "replacement_uri": "at://did:plc:ibkbpjz35e6jhmoicg5kgscl/app.bsky.feed.post/3mqjx6o7pe224",
+          "replacement_date_utc": "2026-07-13"
+        },
+        {
+          "excluded_uri": "at://did:plc:o6ggjvnj4ze3mnrpnv5oravg/app.bsky.feed.post/3mqdiwlfo2p2m",
+          "reason": "feed_attribution_only",
+          "replacement_uri": "at://did:plc:i6zuhctlor7rcuks4qyghz4d/app.bsky.feed.post/3mqcqvm2yjs23",
+          "replacement_date_utc": "2026-07-10"
+        },
+        {
+          "excluded_uri": "at://did:plc:o6ggjvnj4ze3mnrpnv5oravg/app.bsky.feed.post/3mqfvqmt7bv2q",
+          "reason": "feed_attribution_only",
+          "replacement_uri": "at://did:plc:nmoce5wqzjxyohfragpjs2su/app.bsky.feed.post/3mqo6ueeios2k",
+          "replacement_date_utc": "2026-07-15"
+        },
+        {
+          "excluded_uri": "at://did:plc:o6ggjvnj4ze3mnrpnv5oravg/app.bsky.feed.post/3mqeroeeoee2j",
+          "reason": "feed_attribution_only",
+          "replacement_uri": "at://did:plc:upvw2efsfxszfsmmkkmj7pn2/app.bsky.feed.post/3mqhkaxpwcc2l",
+          "replacement_date_utc": "2026-07-12"
+        },
+        {
+          "excluded_uri": "at://did:plc:o6ggjvnj4ze3mnrpnv5oravg/app.bsky.feed.post/3mqgd4rnnrh2v",
+          "reason": "feed_attribution_only",
+          "replacement_uri": "at://did:plc:k5f7562qadds2vn7k6i3ny2o/app.bsky.feed.post/3mqihddg4622r",
+          "replacement_date_utc": "2026-07-13"
+        },
+        {
+          "excluded_uri": "at://did:plc:o6ggjvnj4ze3mnrpnv5oravg/app.bsky.feed.post/3mqhqc6p5sr2a",
+          "reason": "feed_attribution_only",
+          "replacement_uri": "at://did:plc:wtqd6ppeggboyyh74ibxy6en/app.bsky.feed.post/3mqhipregqk2v",
+          "replacement_date_utc": "2026-07-12"
+        },
+        {
+          "excluded_uri": "at://did:plc:o6ggjvnj4ze3mnrpnv5oravg/app.bsky.feed.post/3mqcb3jfxmf2r",
+          "reason": "feed_attribution_only",
+          "replacement_uri": "at://did:plc:i7isds572ur3bo7omyfuvs6q/app.bsky.feed.post/3mqfzon3k222b",
+          "replacement_date_utc": "2026-07-12"
+        },
+        {
+          "excluded_uri": "at://did:plc:o6ggjvnj4ze3mnrpnv5oravg/app.bsky.feed.post/3mqdcvqvrye2g",
+          "reason": "feed_attribution_only",
+          "replacement_uri": "at://did:plc:qjzrmpzoq5t3arfpmiveduq6/app.bsky.feed.post/3mqeyxdi5gc22",
+          "replacement_date_utc": "2026-07-11"
+        },
+        {
+          "excluded_uri": "at://did:plc:o6ggjvnj4ze3mnrpnv5oravg/app.bsky.feed.post/3mql5ofeagf2q",
+          "reason": "feed_attribution_only",
+          "replacement_uri": "at://did:plc:4bhuwixkzcnpdi5q43tvlvex/app.bsky.feed.post/3mqk24qqes223",
+          "replacement_date_utc": "2026-07-13"
+        },
+        {
+          "excluded_uri": "at://did:plc:o6ggjvnj4ze3mnrpnv5oravg/app.bsky.feed.post/3mqhna5gbmn2g",
+          "reason": "feed_attribution_only",
+          "replacement_uri": "at://did:plc:h4u4jfxckqnjek4ayd5h5b2k/app.bsky.feed.post/3mqc63l6iic2m",
+          "replacement_date_utc": "2026-07-10"
+        },
+        {
+          "excluded_uri": "at://did:plc:o6ggjvnj4ze3mnrpnv5oravg/app.bsky.feed.post/3mqddt7wdiw24",
+          "reason": "feed_attribution_only",
+          "replacement_uri": "at://did:plc:a2bbf6sagz67e4uneanokc5z/app.bsky.feed.post/3mqexcqlm6c2o",
+          "replacement_date_utc": "2026-07-11"
+        },
+        {
+          "excluded_uri": "at://did:plc:o6ggjvnj4ze3mnrpnv5oravg/app.bsky.feed.post/3mqdgv6ifhu2v",
+          "reason": "feed_attribution_only",
+          "replacement_uri": "at://did:plc:7cdn4paeowhbil46md2jjlqz/app.bsky.feed.post/3mqf62yadvk2k",
+          "replacement_date_utc": "2026-07-11"
+        },
+        {
+          "excluded_uri": "at://did:plc:o6ggjvnj4ze3mnrpnv5oravg/app.bsky.feed.post/3mqiudidg3x2b",
+          "reason": "feed_attribution_only",
+          "replacement_uri": "at://did:plc:4kxaujevio7kizmcshgxvseq/app.bsky.feed.post/3mqfj5uawfk25",
+          "replacement_date_utc": "2026-07-11"
+        },
+        {
+          "excluded_uri": "at://did:plc:o6ggjvnj4ze3mnrpnv5oravg/app.bsky.feed.post/3mqiq7jdr7n24",
+          "reason": "feed_attribution_only",
+          "replacement_uri": "at://did:plc:2bij7yypmcuvwyz4gyqwtluy/app.bsky.feed.post/3mqikjruotk2z",
+          "replacement_date_utc": "2026-07-13"
+        },
+        {
+          "excluded_uri": "at://did:plc:o6ggjvnj4ze3mnrpnv5oravg/app.bsky.feed.post/3mqays4vwq224",
+          "reason": "feed_attribution_only",
+          "replacement_uri": "at://did:plc:ni2nhcsprxebof27bq7vrzax/app.bsky.feed.post/3mqd4locaas2d",
+          "replacement_date_utc": "2026-07-10"
+        },
+        {
+          "excluded_uri": "at://did:plc:f7d2r4vxgt2y2vhdg7zgf5k5/app.bsky.feed.post/3mqficz33o22r",
+          "reason": "bare_link_only",
+          "replacement_uri": "at://did:plc:gt6hnukw5dw5lffkdgqegk5o/app.bsky.feed.post/3mqcjwcymuk22",
+          "replacement_date_utc": "2026-07-10"
+        },
+        {
+          "excluded_uri": "at://did:plc:o6ggjvnj4ze3mnrpnv5oravg/app.bsky.feed.post/3mqlj24pina2g",
+          "reason": "feed_attribution_only",
+          "replacement_uri": "at://did:plc:s53lnmf44ujyrmpofidt57xw/app.bsky.feed.post/3mqioh573jc25",
+          "replacement_date_utc": "2026-07-13"
+        }
+      ],
+      "selected_daily_counts": {
+        "2026-07-10": 33,
+        "2026-07-11": 32,
+        "2026-07-12": 27,
+        "2026-07-13": 35,
+        "2026-07-14": 15,
+        "2026-07-15": 15,
+        "2026-07-16": 9
+      }
+    }
+  },
+  "limitations": [
+    "Rule-qualified means likely relevant, not human verified. Some false positives may remain.",
+    "Keyword/context rules may miss valid indirect discussions and vary in recall by film.",
+    "The near-equal 167/167/166 annotation quotas are deliberate; do not interpret them as relative movie coverage.",
+    "Retrieved Bluesky search volume is not guaranteed to be exhaustive.",
+    "Language is based on the API-provided language tag and may contain errors."
+  ]
+}
