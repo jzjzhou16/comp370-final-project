@@ -1,0 +1,15 @@
+{
+  "query": "\"Mark Carney\" | \"Carney government\"",
+  "language": "en",
+  "start": "2026-10-01",
+  "end": "2026-11-24",
+  "page_size": 3,
+  "sources": [
+    {"domain": "cbc.ca", "name": "CBC News", "country": "ca", "group": "left", "rating": "Lean Left", "confidence": "low/initial", "rating_url": "https://www.allsides.com/news-source/cbc-news-media-bias", "rating_checked": "2026-11-25"},
+    {"domain": "nationalpost.com", "name": "National Post", "country": "ca", "group": "right", "rating": "Lean Right", "confidence": "low/initial", "rating_url": "https://www.allsides.com/news-source/national-post-media-bias", "rating_checked": "2026-11-25"},
+    {"domain": "theglobeandmail.com", "name": "The Globe and Mail", "country": "ca", "group": "center", "rating": "Center", "confidence": "low/initial", "rating_url": "https://www.allsides.com/news-source/globe-and-mail-media-bias", "rating_checked": "2026-11-25"},
+    {"domain": "cnn.com", "name": "CNN Digital", "country": "us", "group": "left", "rating": "Lean Left", "confidence": "high", "rating_url": "https://www.allsides.com/news-source/cnn-media-bias", "rating_checked": "2026-11-25"},
+    {"domain": "foxnews.com", "name": "Fox News Digital", "country": "us", "group": "right", "rating": "Right", "confidence": "medium", "rating_url": "https://www.allsides.com/news-source/fox-news-media-bias", "rating_checked": "2026-11-25"},
+    {"domain": "thestar.com", "name": "Toronto Star", "country": "ca", "group": "center", "rating": "Center", "confidence": "low/initial", "rating_url": "https://www.allsides.com/news-source/toronto-star-media-bias", "rating_checked": "2026-11-25"}
+  ]
+}

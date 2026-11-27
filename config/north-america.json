@@ -1,0 +1,249 @@
+{
+  "query": "\"Mark Carney\" | \"Carney government\"",
+  "language": "en",
+  "start": "2025-03-14",
+  "end": "2026-11-25",
+  "page_size": 3,
+  "search_fields": "title,description,main_text",
+  "scope_note": "Focused 20-outlet English-language Canada/US sample selected after availability checks over a 47-outlet candidate frame. Mexico outlets, French and Spanish coverage are outside this protocol. Unrated means no political rating has been assessed. Provider match counts do not guarantee 25 usable articles per outlet.",
+  "sampling": {
+    "target_outlets": 20,
+    "articles_per_outlet": 25,
+    "candidate_pool_per_outlet": 50,
+    "selection": "random_after_human_screening",
+    "shortfall_redistribution": "canada_then_us",
+    "seed": 370,
+    "outlet_selection": "availability_balanced",
+    "countries": [
+      "ca",
+      "us"
+    ],
+    "minimum_groups": [
+      "left",
+      "right"
+    ],
+    "fallback": "most_recent_25_when_common_window_coverage_is_insufficient"
+  },
+  "sources": [
+    {
+      "domain": "cbc.ca",
+      "name": "CBC News",
+      "country": "ca",
+      "group": "left",
+      "rating": "Lean Left",
+      "confidence": "low/initial",
+      "rating_url": "https://www.allsides.com/news-source/cbc-news-media-bias",
+      "rating_checked": "2026-11-25",
+      "rating_provider": "AllSides"
+    },
+    {
+      "domain": "nationalpost.com",
+      "name": "National Post",
+      "country": "ca",
+      "group": "right",
+      "rating": "Lean Right",
+      "confidence": "low/initial",
+      "rating_url": "https://www.allsides.com/news-source/national-post-media-bias",
+      "rating_checked": "2026-11-25",
+      "rating_provider": "AllSides"
+    },
+    {
+      "domain": "foxnews.com",
+      "name": "Fox News Digital",
+      "country": "us",
+      "group": "right",
+      "rating": "Right",
+      "confidence": "medium",
+      "rating_url": "https://www.allsides.com/news-source/fox-news-media-bias",
+      "rating_checked": "2026-11-25",
+      "rating_provider": "AllSides"
+    },
+    {
+      "domain": "nbcnews.com",
+      "name": "NBC News Digital",
+      "country": "us",
+      "group": "left",
+      "rating": "Lean Left",
+      "confidence": "medium",
+      "rating_url": "https://www.allsides.com/news-source/nbc-news-media-bias",
+      "rating_checked": "2026-11-25",
+      "rating_provider": "AllSides"
+    },
+    {
+      "domain": "washingtontimes.com",
+      "name": "Washington Times",
+      "country": "us",
+      "group": "right",
+      "rating": "Lean Right",
+      "confidence": "medium",
+      "rating_url": "https://www.allsides.com/news-source/washington-times-media-bias",
+      "rating_checked": "2026-11-25",
+      "rating_provider": "AllSides"
+    },
+    {
+      "domain": "apnews.com",
+      "name": "Associated Press",
+      "country": "us",
+      "group": "left",
+      "rating": "Lean Left",
+      "confidence": "medium",
+      "rating_url": "https://www.allsides.com/news-source/associated-press-media-bias",
+      "rating_checked": "2026-11-25",
+      "rating_provider": "AllSides"
+    },
+    {
+      "domain": "washingtonpost.com",
+      "name": "Washington Post",
+      "country": "us",
+      "group": "left",
+      "rating": "Lean Left",
+      "confidence": "high",
+      "rating_url": "https://www.allsides.com/news-source/washington-post-media-bias",
+      "rating_checked": "2026-11-25",
+      "rating_provider": "AllSides"
+    },
+    {
+      "domain": "nypost.com",
+      "name": "New York Post News",
+      "country": "us",
+      "group": "right",
+      "rating": "Right",
+      "confidence": "not checked",
+      "rating_url": "https://www.allsides.com/news-source/new-york-post-news-media-bias",
+      "rating_checked": "2026-11-25",
+      "rating_provider": "AllSides"
+    },
+    {
+      "domain": "globalnews.ca",
+      "name": "Global News",
+      "country": "ca",
+      "group": "unrated",
+      "rating": "Not assessed",
+      "confidence": "not assessed",
+      "rating_url": "https://globalnews.ca/",
+      "rating_checked": "not assessed",
+      "rating_provider": "not assessed"
+    },
+    {
+      "domain": "financialpost.com",
+      "name": "Financial Post",
+      "country": "ca",
+      "group": "unrated",
+      "rating": "Not assessed",
+      "confidence": "not assessed",
+      "rating_url": "https://financialpost.com/",
+      "rating_checked": "not assessed",
+      "rating_provider": "not assessed"
+    },
+    {
+      "domain": "montrealgazette.com",
+      "name": "Montreal Gazette",
+      "country": "ca",
+      "group": "unrated",
+      "rating": "Not assessed",
+      "confidence": "not assessed",
+      "rating_url": "https://montrealgazette.com/",
+      "rating_checked": "not assessed",
+      "rating_provider": "not assessed"
+    },
+    {
+      "domain": "vancouversun.com",
+      "name": "Vancouver Sun",
+      "country": "ca",
+      "group": "unrated",
+      "rating": "Not assessed",
+      "confidence": "not assessed",
+      "rating_url": "https://vancouversun.com/",
+      "rating_checked": "not assessed",
+      "rating_provider": "not assessed"
+    },
+    {
+      "domain": "calgaryherald.com",
+      "name": "Calgary Herald",
+      "country": "ca",
+      "group": "unrated",
+      "rating": "Not assessed",
+      "confidence": "not assessed",
+      "rating_url": "https://calgaryherald.com/",
+      "rating_checked": "not assessed",
+      "rating_provider": "not assessed"
+    },
+    {
+      "domain": "winnipegfreepress.com",
+      "name": "Winnipeg Free Press",
+      "country": "ca",
+      "group": "unrated",
+      "rating": "Not assessed",
+      "confidence": "not assessed",
+      "rating_url": "https://winnipegfreepress.com/",
+      "rating_checked": "not assessed",
+      "rating_provider": "not assessed"
+    },
+    {
+      "domain": "nationalobserver.com",
+      "name": "Canada's National Observer",
+      "country": "ca",
+      "group": "unrated",
+      "rating": "Not assessed",
+      "confidence": "not assessed",
+      "rating_url": "https://nationalobserver.com/",
+      "rating_checked": "not assessed",
+      "rating_provider": "not assessed"
+    },
+    {
+      "domain": "ipolitics.ca",
+      "name": "iPolitics",
+      "country": "ca",
+      "group": "unrated",
+      "rating": "Not assessed",
+      "confidence": "not assessed",
+      "rating_url": "https://ipolitics.ca/",
+      "rating_checked": "not assessed",
+      "rating_provider": "not assessed"
+    },
+    {
+      "domain": "nytimes.com",
+      "name": "New York Times",
+      "country": "us",
+      "group": "unrated",
+      "rating": "Not assessed",
+      "confidence": "not assessed",
+      "rating_url": "https://nytimes.com/",
+      "rating_checked": "not assessed",
+      "rating_provider": "not assessed"
+    },
+    {
+      "domain": "cbsnews.com",
+      "name": "CBS News",
+      "country": "us",
+      "group": "unrated",
+      "rating": "Not assessed",
+      "confidence": "not assessed",
+      "rating_url": "https://cbsnews.com/",
+      "rating_checked": "not assessed",
+      "rating_provider": "not assessed"
+    },
+    {
+      "domain": "abcnews.go.com",
+      "name": "ABC News",
+      "country": "us",
+      "group": "unrated",
+      "rating": "Not assessed",
+      "confidence": "not assessed",
+      "rating_url": "https://abcnews.go.com/",
+      "rating_checked": "not assessed",
+      "rating_provider": "not assessed"
+    },
+    {
+      "domain": "pbs.org",
+      "name": "PBS News",
+      "country": "us",
+      "group": "unrated",
+      "rating": "Not assessed",
+      "confidence": "not assessed",
+      "rating_url": "https://pbs.org/",
+      "rating_checked": "not assessed",
+      "rating_provider": "not assessed"
+    }
+  ]
+}
