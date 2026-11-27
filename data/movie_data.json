@@ -1,0 +1,28 @@
+{
+  "movies": [
+    {
+      "movie_id": "the_odyssey",
+      "movie_name": "The Odyssey",
+      "search_query": "\"The Odyssey\"",
+      "release_date": "2026-07-17",
+      "sample_posts": 167,
+      "open_coding_posts": 67
+    },
+    {
+      "movie_id": "spider_man_brand_new_day",
+      "movie_name": "Spider-Man: Brand New Day",
+      "search_query": "\"Spider-Man: Brand New Day\"",
+      "release_date": "2026-07-31",
+      "sample_posts": 167,
+      "open_coding_posts": 67
+    },
+    {
+      "movie_id": "moana_live_action",
+      "movie_name": "Moana (live-action)",
+      "search_query": "Moana",
+      "release_date": "2026-07-10",
+      "sample_posts": 166,
+      "open_coding_posts": 66
+    }
+  ]
+}
